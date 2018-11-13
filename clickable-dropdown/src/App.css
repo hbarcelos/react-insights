@@ -1,0 +1,44 @@
+:root {
+  --color-primary: hsl(204, 88%, 48%);
+  --color-primary-light: hsl(204, 64%, 77%);
+  --color-secondary: hsl(4, 88%, 48%);
+  --color-secondary-light: hsl(4, 64%, 77%);
+    --color-white: hsla(204, 15%, 94%, 95%);
+}
+
+::-moz-focus-inner {
+  border: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.DropdownContainer {
+  position: relative;
+}
+
+.Dropdown {
+  position: absolute;
+  top: 5rem;
+  width: 20rem;
+  padding: 1rem;
+  box-shadow: 0 0 1px 1px var(--color-secondary);
+}
+
+.Button {
+  cursor: pointer;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border: none;
+  font-size: 2em;
+  padding: 1rem;
+  box-shadow: 0 0 1rem var(--color-secondary-light);
+}
